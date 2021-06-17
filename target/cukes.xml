@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.175649">
+    <testcase classname="Search and place order for Vegetables" name="Search for items and then move to checkout page" time="0.174949">
+        <failure message="java.io.FileNotFoundException: C:\Users\Owner\Documents\Automation\src\test\java\Cucumber\Automation\global.properties (The system cannot find the path specified)&#13;&#10;&#9;at java.base/java.io.FileInputStream.open0(Native Method)&#13;&#10;&#9;at java.base/java.io.FileInputStream.open(FileInputStream.java:211)&#13;&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)&#13;&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)&#13;&#10;&#9;at Cucumber.Automation.Base.getDriver(Base.java:18)&#13;&#10;&#9;at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:28)&#13;&#10;&#9;at ✽.Given User is on Greencart Landing page(search.feature:12)&#13;&#10;"><![CDATA[Given User is on Greencart Landing page.....................................failed
+When User searched for Brinjal Vegetable....................................skipped
+And Added items to cart.....................................................skipped
+And User proceeded to Checkout page for purchase............................skipped
+Then verify selected Brinjal items are displayed in Check out page..........skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\Owner\Documents\Automation\src\test\java\Cucumber\Automation\global.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at Cucumber.Automation.Base.getDriver(Base.java:18)
+	at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:28)
+	at ✽.Given User is on Greencart Landing page(search.feature:12)
+]]></failure>
+    </testcase>
+    <testcase classname="Search and place order for Vegetables" name="Search for items and then move to checkout page 2" time="0.0007">
+        <failure message="java.io.FileNotFoundException: C:\Users\Owner\Documents\Automation\src\test\java\Cucumber\Automation\global.properties (The system cannot find the path specified)&#13;&#10;&#9;at java.base/java.io.FileInputStream.open0(Native Method)&#13;&#10;&#9;at java.base/java.io.FileInputStream.open(FileInputStream.java:211)&#13;&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)&#13;&#10;&#9;at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)&#13;&#10;&#9;at Cucumber.Automation.Base.getDriver(Base.java:18)&#13;&#10;&#9;at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:28)&#13;&#10;&#9;at ✽.Given User is on Greencart Landing page(search.feature:12)&#13;&#10;"><![CDATA[Given User is on Greencart Landing page.....................................failed
+When User searched for Beetroot Vegetable...................................skipped
+And Added items to cart.....................................................skipped
+And User proceeded to Checkout page for purchase............................skipped
+Then verify selected Beetroot items are displayed in Check out page.........skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\Owner\Documents\Automation\src\test\java\Cucumber\Automation\global.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at Cucumber.Automation.Base.getDriver(Base.java:18)
+	at stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page(MyStepDefinitions.java:28)
+	at ✽.Given User is on Greencart Landing page(search.feature:12)
+]]></failure>
+    </testcase>
+</testsuite>
