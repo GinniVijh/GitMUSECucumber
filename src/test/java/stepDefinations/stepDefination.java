@@ -26,6 +26,7 @@ public class stepDefination extends Base {
     public void user_is_on_netbanking_landing_page() throws Throwable {
     //code to navigate to login url
     	System.out.println("navigated to login url");
+    	System.out.println("Making changes to see in GIT");
     	
     }
   
